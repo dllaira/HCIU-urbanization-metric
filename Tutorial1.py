@@ -57,15 +57,15 @@ import numpy as np
 
 #%%===========PRELIMINARY DEM PROCESSING==============
 
-# 1) Generate sink-less DEM from raw DEM
+# 1) Generate sink-less DEM from raw basin DEM
 
-# directory of the raw DEM (make sure you "close" the directory by adding "\\" at the end)
+# directory of the raw basin DEM (make sure you "close" the directory by adding "\\" at the end)
 dem_dir = 'C:\\Users\\User1\\DEM_folder\\' #example
 # directory where you want to save the output, sink-free DEM 
 fill_dem_dir = 'C:\\Users\\User1\\SinkFreeDEM_folder\\'
 # name of the raw DEM file 
 dem_file = 'DEM.tif'
-# name that you want to give to the output, sink-free DEM 
+# name that you want to give to the output, sink-free basin DEM 
 # (no need to include the extension, which will automatically be ".tif")
 fill_dem_name = 'fDEM'
 
@@ -148,9 +148,9 @@ S_file = S_name + '.tif'
 #                                            neighborhood_size=3)
 
 
-# location of the shapefile of the points with headwater locations
+# location of the shapefile of the points with basin headwater locations 
 headwaters_dir = 'C:\\Users\\User1\\headwaters_folder\\'
-# name of the shapefile of the points with headwater locations
+# name of the shapefile of the points with basin headwater locations
 headwaters_file = 'headwaters.shp'
 
 # It may be the case that the flow lines (and associated headwaters) do not perfectly 
@@ -165,7 +165,7 @@ headwaters_file = 'headwaters.shp'
 # area centered on the raw headwater location. It is suggested choosing the value of "neighborhood_size" 
 # parameter based on the resolution of your DEM. 
 
-# location where you want to save the snap
+# location where you want to save the snapped headwaters
 snapped_headwaters_dir = 'C:\\Users\\User1\\snapped_headwaters_folder\\'
 snapped_headwaters_file = 'snapped_headwaters.shp'
 SNA.snap_headwaters_to_highFlowAcc_cells(flowAcc_dir, flowAcc_file,
@@ -181,7 +181,7 @@ SNA.snap_headwaters_to_highFlowAcc_cells(flowAcc_dir, flowAcc_file,
 
 # location where to save the raster of stream network cells
 StrmNet_dir = 'C:\\Users\\User1\\StreamNetwork_folder\\'
-# name that you want to assign to the raster file of stream network cells
+# name that you want to assign to the raster file of stream network cells for the basin
 StrmNet_name = 'StreamNetwork_raster'
 # location where to save the raster of stream network travel distances
 StrmNet_TravelDist_dir = 'C:\\Users\\User1\\StreamNetwork_folder\\'
@@ -227,9 +227,9 @@ LULC_col = 'LULC'
 Manning_col = 'n'
 convtab = pd.DataFrame({LULC_col: LULCs, Manning_col: ns})
 
-# location of LULC raster map
+# location of LULC raster map of the basin
 LULC_dir = 'C:\\Users\\User1\\LULCmap_folder\\'
-# file name of LULC raster map
+# file name of LULC raster map of the basin
 LULC_file = 'LULCmap.img'
 
 # location where you want to save the output raster map of Manning coefficients
@@ -245,7 +245,7 @@ UTLS.LULC_to_Manning(LULC_dir, LULC_file,
 # file name of the output map of Manning's roughness coefficients
 ManningMap_file = ManningMap_name + '.tif'
 
-# Now we can generate the map of weights W, using the formulation
+# Now we can generate the map of weights W for the basin, using the formulation
 # W(n) = 1-n (Hooke et al., 2021)
 # The function will generate a W map resampled to match the resolution of the
 # Flow Accumulation raster. 
@@ -280,7 +280,7 @@ HCI_dir = 'C:\\Users\\User1\\HCI_folder\\'
 # file name for the output HCI raster 
 HCI_name = 'HCI_n'
 
-# calculate the HCI raster
+# calculate the HCI raster for the basin
 HCA.HCI_f(S_dir, S_file, 
           W_dir, W_file, 
           flowDir_dir, flowDir_file, 
@@ -294,7 +294,7 @@ HCA.HCI_f(S_dir, S_file,
 # location where you want to save the raster of normalized connectivity indices
 HCI_hat_dir = 'C:\\Users\\User1\\normHCI_folder\\'
 
-# name that you want to assign to the raster of normalized connectivity indices
+# name that you want to assign to the raster of normalized connectivity indices for the basin
 HCI_hat_name = 'normHCI_n'
 
 # weight for the fully impervious benchmark
