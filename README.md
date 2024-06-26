@@ -23,8 +23,8 @@ This suite of functions allows to perform the analyses shown in our work for our
 - `Tutorial3.py` It streamlines the procedures for fitting a regional model and comparing the explanatory power achieved with HCIU and the traditional fraction of total impervious area (TIA).
 
 ## How to run the code locally
-<p>Download this repository to run our code on your machine. As we used some external open-source libraries to create our code, before running it you should first install the required external libraries in your working environment. Each module in this repository includes information about its specific dependencies (including a link to the libraries' documentation), and will automatically import the necessary libraries when executed. Also download the necessary raster maps and geospatial data from the links provided in the Code and Data availability statement in our article. <p>
-Follow Tutorial 1 to calculate HCIU for the case-study basins, and Tutorial 2 for doing the same but using the alternative HCIU(CN) formulation. Then, test the predictive power of HCIU(n) and HCIU(CN) against the traditional fraction of total impervious area (TIA) by following the steps illustrated in Tutorial 3. You can also directly run Tutorial 3 using the basin information and calculated HCIU values reported in Table A1 of our article (table is also provided in this repository, in the Data folder). All tutorials include detailed information across all necessary steps. Additional documentation for each function is provided in the modules in this repository. 
+<p>Download this repository to run our code on your machine. As we used some external open-source libraries to create our code, before running it you should first install the required external libraries in your working environment. Each module in this repository includes information about its specific dependencies (including a link to the libraries' documentation), and will automatically import the necessary libraries when executed. Also download the necessary geospatial raster and vector data from the links provided in the Code and Data availability statement in our article. <p>
+Follow Tutorial 1 to calculate HCIU for the case-study basins, and Tutorial 2 for doing the same but using the alternative HCIU(CN) formulation. Then, test the predictive power of HCIU(n) and HCIU(CN) against the traditional fraction of total impervious area (TIA) by following the steps illustrated in Tutorial 3. You can also directly run Tutorial 3 using the basin information and calculated HCIU values reported in Table A1 of our article (Table A1 is also provided in this repository, in the Data folder). <p> All tutorials include detailed information across all necessary steps. Additional documentation for each function is provided in the respective modules in this repository. 
 </p>
 
 ## Citation
@@ -35,7 +35,7 @@ A New Lumped Descriptor of Basin-Wide Hydrologic Connectivity for Characterizing
 Urbanizing Watersheds. Submitted to: Hydrol. Earth Syst. Sci.
 
 ## License
-Apache 2.0
+[Apache 2.0](https://github.com/dllaira/HCIU-urbanization-metric/blob/main/LICENSE)  
 
 
 
