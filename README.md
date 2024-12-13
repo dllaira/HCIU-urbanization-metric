@@ -5,7 +5,7 @@ Accompanying code for our research article "Beyond Total Impervious Area: A New 
 ```
 Dell'Aira, F., and Meier, C. I. (2024). Beyond Total Impervious Area:
 A New Lumped Descriptor of Basin-Wide Hydrologic Connectivity for Characterizing
-Urbanized Watersheds. Hydrol. Earth Syst. Sci.
+Urban Watersheds. Hydrol. Earth Syst. Sci.
 ```
 
 This suite of functions allows to perform the analyses shown in our work for our case-study basins and to extend the application of HCIU to other case studies. 
@@ -32,7 +32,7 @@ If you use any of this code in your experiments, please make sure to cite the fo
 
 Dell'Aira, F., and Meier, C. I. (2024). Beyond Total Impervious Area:
 A New Lumped Descriptor of Basin-Wide Hydrologic Connectivity for Characterizing
-Urbanizing Watersheds. Hydrol. Earth Syst. Sci.
+Urban Watersheds. Hydrol. Earth Syst. Sci.
 
 ## License
 [Apache 2.0](https://github.com/dllaira/HCIU-urbanization-metric/blob/main/LICENSE)  
