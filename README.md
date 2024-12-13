@@ -1,11 +1,11 @@
 # HCIU: An Urbanization Metric Sensitive to the Spatial Arrangement of Urbanized Sectors with Respect to Basin Topographic Structure and the Heterogeneous Mosaic of Other Land-use/Land-cover Patches.  
-Accompanying code for our research article "Beyond Total Impervious Area: A New Lumped Descriptor of Basin-Wide Hydrologic Connectivity for Characterizing Urbanizing Watersheds".
+Accompanying code for our research article "Beyond Total Impervious Area: A New Lumped Descriptor of Basin-Wide Hydrologic Connectivity for Characterizing Urbanized Watersheds".
 
     
 ```
-Dell'Aira, F., and Meier, C. I. (submitted). Beyond Total Impervious Area:
+Dell'Aira, F., and Meier, C. I. (2024). Beyond Total Impervious Area:
 A New Lumped Descriptor of Basin-Wide Hydrologic Connectivity for Characterizing
-Urbanizing Watersheds. Submitted to: Hydrol. Earth Syst. Sci.
+Urbanized Watersheds. Hydrol. Earth Syst. Sci.
 ```
 
 This suite of functions allows to perform the analyses shown in our work for our case-study basins and to extend the application of HCIU to other case studies. 
@@ -30,9 +30,9 @@ Follow Tutorial 1 to calculate HCIU for the case-study basins, and Tutorial 2 fo
 ## Citation
 If you use any of this code in your experiments, please make sure to cite the following publication: 
 
-Dell'Aira, F., and Meier, C. I. (submitted). Beyond Total Impervious Area:
+Dell'Aira, F., and Meier, C. I. (2024). Beyond Total Impervious Area:
 A New Lumped Descriptor of Basin-Wide Hydrologic Connectivity for Characterizing
-Urbanizing Watersheds. Submitted to: Hydrol. Earth Syst. Sci.
+Urbanizing Watersheds. Hydrol. Earth Syst. Sci.
 
 ## License
 [Apache 2.0](https://github.com/dllaira/HCIU-urbanization-metric/blob/main/LICENSE)  
