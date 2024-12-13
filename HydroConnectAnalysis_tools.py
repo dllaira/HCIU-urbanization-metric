@@ -10,7 +10,7 @@ Suite of functions for calculating the Hydrologic Connectivity Index HCI
 These functions represent an asset associated with the research work by 
 F. Dell'Aira and C. I. Meier (2024), titled: "Beyond Total Impervious Area: 
 A New Lumped Descriptor of Basin-Wide Hydrologic Connectivity for 
-Characterizing Urbanizing Watersheds".
+Characterizing Urban Watersheds".
 
 These functions implement a modified formulation of the Connectivity Index,
 as compared to the traditional one (see, e.g., Hooke et al., 2021, for a 
@@ -18,7 +18,7 @@ review of uses of the traditional formulation of the Connectivity Index).
 Find information about HCI in the work: 
     F. Dell'Aira and C. I. Meier, 2024."Beyond Total Impervious Area: 
     A New Lumped Descriptor of Basin-Wide Hydrologic Connectivity for 
-    Characterizing Urbanizing Watersheds".
+    Characterizing Urban Watersheds". Hydrology and Earth System Sciences.
 
 DEPENDENCIES: 
 1) Numpy Python library (https://numpy.org/)
