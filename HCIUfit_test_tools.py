@@ -16,7 +16,7 @@ Characterizing Urban Watersheds".
 REFERENCES
 F. Dell'Aira and C. I. Meier, 2024."Beyond Total Impervious Area: 
 A New Lumped Descriptor of Basin-Wide Hydrologic Connectivity for 
-Characterizing Urban Watersheds".
+Characterizing Urban Watersheds". Hydrology and Earth System Sciences.
 
 DEPENDENCIES: 
 1) Numpy Python library (https://numpy.org/)
