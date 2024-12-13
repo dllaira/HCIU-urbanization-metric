@@ -10,12 +10,12 @@ Suite of function for plotting the results presented in Dell'Aira & Meier (2024)
 These functions represent an asset associated with the research work by 
 F. Dell'Aira and C. I. Meier (2024), titled: "Beyond Total Impervious Area: 
 A New Lumped Descriptor of Basin-Wide Hydrologic Connectivity for 
-Characterizing Urbanizing Watersheds".
+Characterizing Urban Watersheds".
 
 REFERENCES
 F. Dell'Aira and C. I. Meier, 2024."Beyond Total Impervious Area: 
 A New Lumped Descriptor of Basin-Wide Hydrologic Connectivity for 
-Characterizing Urbanizing Watersheds".
+Characterizing Urban Watersheds". Hydrology and Earth System Sciences.
 
 DEPENDENCIES: 
 1) Numpy Python library (https://numpy.org/)
