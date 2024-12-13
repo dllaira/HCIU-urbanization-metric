@@ -24,7 +24,7 @@ the headwater locations for your basin.
 REFERENCES
 F. Dell'Aira and C. I. Meier, 2024."Beyond Total Impervious Area: 
 A New Lumped Descriptor of Basin-Wide Hydrologic Connectivity for 
-Characterizing Urban Watersheds".
+Characterizing Urban Watersheds". Hydrology and Earth System Sciences.
 
 DEPENDENCIES: 
 1) Numpy Python library (https://numpy.org/)
@@ -131,17 +131,13 @@ S_file = S_name + '.tif'
 # approach).
 
 # Below we show how to feed the headwater locations from an input shapefile; however, 
-# if you wish, you can alternatively feed headwater locations manually, simply providing  the
-# "headwaters" parameter (instead of "headwaters_dir" and "headwaters_file") to 
-# the "snap_headwaters_to_highFlowAcc_cells" and "StreamNet_f" functions, using
-# the following format for defining that parameter and for the call to the two functions:
+# if you wish, you can alternatively pass headwater locations manually, simply providing  the
+# "headwaters" parameter (instead of "headwaters_dir" and "headwaters_file") to the
+# "snap_headwaters_to_highFlowAcc_cells" function, using the following format for defining
+# that parameter and for the call to the function:
 #
 #   headwaters = [(lon1, lat1), (lon2, lat2), ..., (lonN, latN)]    
 #  
-#   SNA.snap_headwaters_to_highFlowAcc_cells(flowAcc_dir, flowAcc_file,
-#                                            snapped_headwaters_dir, snapped_headwaters_file, 
-#                                            headwaters = headwaters,
-#                                            neighborhood_size=3)
 #   SNA.snap_headwaters_to_highFlowAcc_cells(flowAcc_dir, flowAcc_file,
 #                                            snapped_headwaters_dir, snapped_headwaters_file, 
 #                                            headwaters = headwaters,
