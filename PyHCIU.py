@@ -12,13 +12,13 @@ Dell'Aira and Meier (2024)
 These functions represent an asset associated with the research work by 
 F. Dell'Aira and C. I. Meier (2024), titled: "Beyond Total Impervious Area: 
 A New Lumped Descriptor of Basin-Wide Hydrologic Connectivity for 
-Characterizing Urban Watersheds". Hydrology and Earth System Sciences.
+Characterizing Urban Watersheds". 
 
 
 REFERENCES
 F. Dell'Aira and C. I. Meier, 2024."Beyond Total Impervious Area: 
 A New Lumped Descriptor of Basin-Wide Hydrologic Connectivity for 
-Characterizing Urban Watersheds".
+Characterizing Urban Watersheds". Hydrology and Earth System Sciences.
 
 DEPENDENCIES: 
 1) Numpy Python library (https://numpy.org/)
